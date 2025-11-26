@@ -1,4 +1,3 @@
-import React from 'react';
 
 import LanguagesIcons from '../molecules/languagesIcons';
 import ProjectList from '../molecules/projectList';

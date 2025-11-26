@@ -1,9 +1,7 @@
-import React from 'react'
 
 import FormDepoiments from '../molecules/formDepoiments'
 import FormLeads from '../molecules/formLeads'
 import Shape from '../atoms/shape'
-import SlideDepoiments from '../molecules/slideDepoiments'
 
 function Depoiments() {
   return (

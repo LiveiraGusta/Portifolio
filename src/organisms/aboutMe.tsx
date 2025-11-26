@@ -1,4 +1,3 @@
-import React from 'react';
 import AboutMePhoto from '../molecules/aboutMePhoto';
 import AboutMeText from '../molecules/aboutMeText';
 import AboutMeEducation from '../molecules/aboutMeEducation';
