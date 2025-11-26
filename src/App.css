@@ -1,0 +1,10 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    background: #191824;
+    color: #FFFFF0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 30px;
+}
+  
