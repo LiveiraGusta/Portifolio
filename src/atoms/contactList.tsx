@@ -1,5 +1,5 @@
 import GithubIcon from "../assets/icons/GithubIcon.svg";
-import MailIcon from "../assets/icons/mailicon.svg";
+import MailIcon from "../assets/icons/MailIcon.svg";
 import InstagramIcon from "../assets/icons/InstagramIcon.svg";
 import LinkedinIcon from "../assets/icons/LinkedinIcon.svg";
 
