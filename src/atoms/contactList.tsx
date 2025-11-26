@@ -1,27 +1,13 @@
+import GithubIcon from "../assets/icons/GithubIcon.svg";
+import MailIcon from "../assets/icons/mailicon.svg";
+import InstagramIcon from "../assets/icons/InstagramIcon.svg";
+import LinkedinIcon from "../assets/icons/LinkedinIcon.svg";
 
 const contactsListData = [
-  {
-    urlLink: "https://github.com/LiveiraGusta",
-    urlImage: "src/assets/icons/GithubIcon.svg",
-    alt: "Logo Github",
-  },
-
-  {
-    urlLink: "mailto:gustavo.oliver456@gmail.com",
-    urlImage: "src/assets/icons/mailicon.svg",
-    alt: "Logo Email",
-  },
-
-  {
-    urlLink: "https://www.instagram.com/devliveira",
-    urlImage: "src/assets/icons/InstagramIcon.svg",
-    alt: "Logo Linkedin",
-  },
-  {
-    urlLink: "https://www.linkedin.com/in/oliveiragusta/",
-    urlImage: "src/assets/icons/LinkedinIcon.svg",
-    alt: "Logo Linkedin",
-  },
+  { urlLink: "https://github.com/LiveiraGusta", urlImage: GithubIcon, alt: "Logo Github" },
+  { urlLink: "mailto:gustavo.oliver456@gmail.com", urlImage: MailIcon, alt: "Logo Email" },
+  { urlLink: "https://www.instagram.com/devliveira", urlImage: InstagramIcon, alt: "Logo Instagram" },
+  { urlLink: "https://www.linkedin.com/in/oliveiragusta/", urlImage: LinkedinIcon, alt: "Logo Linkedin" },
 ];
 
 function ContactList() {
