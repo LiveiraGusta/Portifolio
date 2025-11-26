@@ -1,4 +1,3 @@
-import React from "react";
 
 import Navbar from "../molecules/navBar";
 import PhotoHome from "../molecules/photoHome";
