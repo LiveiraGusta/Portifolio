@@ -1,7 +1,5 @@
 
-import React from 'react';
 
-import LanguagesIcons from '../molecules/languagesIcons';
 import Shape from '../atoms/shape';
 import ServicesList from '../molecules/serviceList';
 

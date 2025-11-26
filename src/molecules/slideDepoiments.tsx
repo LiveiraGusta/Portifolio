@@ -1,4 +1,3 @@
-import React from 'react'
 
 import imgPerson from "../assets/images/person.jpg";
 

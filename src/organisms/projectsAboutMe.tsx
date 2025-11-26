@@ -1,4 +1,3 @@
-import React from 'react'
 import Projects from './projects'
 import AboutMe from './aboutMe'
 import Shape from '../atoms/shape'

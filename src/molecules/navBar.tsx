@@ -1,4 +1,3 @@
-import React from 'react'
 
 var classNav = "relative px-2 mb-2 hover:mb-0 hover:border-b-2 hover:border-white-500 transtion duration-200"
 
