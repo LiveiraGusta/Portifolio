@@ -83,6 +83,7 @@ const languagesListData = [
   { name: "Python", size: "w-10 h-10", urlImage: "python-logo.svg", alt: "Logo Python" },
 ];
 
+
 function ProjectList() {
   return (
     <div className="pb-20 z-50 flex flex-col">
@@ -130,20 +131,13 @@ function ProjectList() {
                 />
               )}
 
-              <Button
-                text={project.isCodePublic ? "Ver Código" : "Código Privado"}
-                padding="px-5 py-2"
-                type={project.isCodePublic ? "download" : "block"}
-                link={project.linkCodeProject}
-                iconUrl={
-                  new URL(
-                    project.isCodePublic
-                      ? "../assets/icons/GithubIcon.svg"
-                      : "../assets/icons/LockIcon.svg",
-                    import.meta.url
-                  ).href
-                }
-              />
+            <Button
+              text={project.isCodePublic ? "Ver Código" : "Código Privado"}
+              padding="px-5 py-2"
+              type={project.isCodePublic ? "download" : "block"}
+              link={project.linkCodeProject}
+              iconUrl={new URL(`/src/assets/icons/${project.isCodePublic ? "GithubIcon.svg" : "LockIcon.svg"}`, import.meta.url).href}
+            />
             </div>
 
           </div>

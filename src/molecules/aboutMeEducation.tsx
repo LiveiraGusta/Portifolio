@@ -1,22 +1,24 @@
+const getLogo = (file: string) =>
+  new URL(`../assets/logos/${file}`, import.meta.url).href;
 
 const educationData = [
   {
     institution: "Centro Universitário FEI",
     course: "Bacharelado, Ciência da Computação",
     status: "Cursando",
-    urlImage: "fei-logo.png"
+    urlImage: getLogo("fei-logo.png")
   },
   {
     institution: "Generation Brasil",
     course: "Desenvolvimento Full Stack Spring React",
     status: "Concluído",
-    urlImage: "generation-logo.png"
+    urlImage: getLogo("generation-logo.png")
   },
   {
     institution: "ETEC - Escola Técnica Estadual de São Paulo",
     course: "Técnico, Programação",
     status: "Concluído",
-    urlImage: "logo-etec.png"
+    urlImage: getLogo("logo-etec.png")
   }
 ];
 
@@ -26,22 +28,15 @@ function AboutMeEducation() {
       style={{
         background: "radial-gradient(ellipse at left, rgba(6, 5, 21, 0.2) 70%, rgba(255, 255, 255, 1) 500%)"
       }}
-      className="flex flex-col  rounded-3xl shadow-lg p-10 px-30 lg:w-5/12 h-[50vh]"
+      className="flex flex-col rounded-3xl shadow-lg p-10 px-30 lg:w-5/12 h-[50vh]"
     >
       <h1 className="text-2xl font-bold self-center pb-2">CERTIFICAÇÕES</h1>
       <ul className="list-none">
         {educationData.map((item, index) => (
-          <li
-            key={index}
-            className="text-white py-4 flex items-center gap-4 "
-          >
-            <img
-              src={`src/assets/logos/${item.urlImage}`}
-              alt={`Logo ${item.institution}`}
-              className="w-12 h-12 object-contain"
-            />
+          <li key={index} className="text-white py-4 flex items-center gap-4">
+            <img src={item.urlImage} alt={item.institution} className="w-12 h-12 object-contain" />
             <div>
-              <p className="text-lg font-bold text-white">{item.institution}</p>
+              <p className="text-lg font-bold">{item.institution}</p>
               <p>{item.course}</p>
               <p className="text-gray-400">{item.status}</p>
             </div>
