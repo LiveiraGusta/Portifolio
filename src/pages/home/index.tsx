@@ -1,4 +1,3 @@
-import React from "react";
 
 import VideoHome from "../../organisms/videoHome.tsx";
 import Services from "../../organisms/services.tsx";
