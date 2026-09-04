@@ -3,9 +3,15 @@ const getLogo = (file: string) =>
 
 const educationData = [
   {
-    institution: "Centro Universitário FEI",
-    course: "Bacharelado, Ciência da Computação",
+    institution: "Universidade São Judas Tadeu",
+    course: "Bacharelado, Engenharia de Software",
     status: "Cursando",
+    urlImage: getLogo("usjt-logo.png")
+  },
+  {
+    institution: "Centro Universitário FEI",
+    course: "Bacharelado, Ciências da Computação",
+    status: "Interrompido",
     urlImage: getLogo("fei-logo.png")
   },
   {

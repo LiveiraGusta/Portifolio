@@ -13,17 +13,16 @@ const projectsData = [
     alt: "Screenshot do site da Ortopelve",
     languages: ["Laravel", "Javascript"],
   },
+
   {
-    name: "Pedra Papel Tesoura Online",
-    description: "Jogo online de Pedra Papel Tesoura utilizando Socket.io para comunicação em tempo real",
-    theme: "Fullstack",
+    name: "Gerenciamento de Ramais",
+    description: "Sistema de gerenciamento de ramais para empresas.",
+    theme: "Freelance Fullstack",
     isProjectOnline: false,
-    linkProject: "",
-    isCodePublic: true,
-    linkCodeProject: "https://github.com/OliveiraGusta/Pedra-Papel-Tesoura-Online",
-    urlImage: "pedra-papel-tesoura-screenshot.png",
-    alt: "Screenshot do jogo Pedra Papel Tesoura",
-    languages: ["TypeScript"],
+    isCodePublic: false,
+    urlImage: "ramais-screenshot.png",
+    alt: "Screenshot da aplicação",
+    languages: ["Angular", "Node"],
   },
   {
     name: "Modulo de Despesa",
@@ -37,10 +36,21 @@ const projectsData = [
     alt: "Screenshot do sistema de despesa",
     languages: ["Angular", "Node"],
   },
+    {
+    name: "Politicas de Privacidade",
+    description: "Gerador automatizado completo.",
+    theme: "Automação Desktop",
+    isProjectOnline: false,
+    isCodePublic: true,
+    linkCodeProject: "https://github.com/OliveiraGusta/Gerador-de-Politicas-de-Privacidade",
+    urlImage: "gerador-politica-screenshot.png",
+    alt: "Screenshot da aplicação",
+    languages: ["Python"],
+  },
   {
     name: "Starwars",
     description: "Sistema de avaliação com notas e comentários, usando API Swapi.",
-    theme: "Fullstack",
+    theme: "Estudo Fullstack",
     isProjectOnline: false,
     isCodePublic: true,
     linkCodeProject: "https://github.com/OliveiraGusta/L5-Networks-StarwarsAPI",
@@ -59,17 +69,7 @@ const projectsData = [
     alt: "Screenshot terminal rodando script",
     languages: ["Python"],
   },
-  {
-    name: "Politicas de Privacidade",
-    description: "Gerador automatizado completo.",
-    theme: "Automação Desktop",
-    isProjectOnline: false,
-    isCodePublic: true,
-    linkCodeProject: "https://github.com/OliveiraGusta/Gerador-de-Politicas-de-Privacidade",
-    urlImage: "gerador-politica-screenshot.png",
-    alt: "Screenshot da aplicação",
-    languages: ["Python"],
-  },
+  
 ];
 
 const languagesListData = [

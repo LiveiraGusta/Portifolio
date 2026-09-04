@@ -5,7 +5,7 @@ interface ButtonProps {
   padding?: string;
   iconUrl?: string;
   altIcon?: string;
-  link: string;
+  link?: string;
   type?: "block" | "download"; 
 }
 
@@ -14,7 +14,7 @@ const Button: React.FC<ButtonProps> = ({
   padding = "px-4 py-2",
   iconUrl,
   altIcon = "Ícone",
-  link,
+  link = "#",
   type
 }) => {
   return (

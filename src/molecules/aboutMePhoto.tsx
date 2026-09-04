@@ -1,7 +1,7 @@
 import ContactList from '../atoms/contactList'
 import Button from '../atoms/button'
 import mePhoto from '../assets/images/me.png'
-import downloadCv from '../assets/download/GustavoOliveira-DesenvolvedorFullstack.pdf'
+import downloadCv from '../assets/download/curriculo-gustavo-desenvolvedor.pdf'
 import downloadIcon from '../assets/icons/DownloadIcon.svg'
 
 export default function AboutMePhoto() {

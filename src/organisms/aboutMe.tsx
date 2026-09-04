@@ -5,7 +5,7 @@ import AboutMeExperience from '../molecules/aboutMeExperience';
 
 function AboutMe() {
   return (
-    <div id="about-me" className="pt-5 pb-40">
+    <div id="about-me" className="pt-5">
 
       <div className='flex flex-col lg:flex-row gap-6 pb-6'>
         <AboutMePhoto />
