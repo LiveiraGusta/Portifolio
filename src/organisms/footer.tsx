@@ -42,6 +42,7 @@ export default function Footer() {
                 {item === "home" && "Home"}
                 {item === "services" && "Serviços"}
                 {item === "projects" && "Projetos"}
+                {item === "community" && "Comunidade"}
                 {item === "about-me" && "Sobre mim"}
                 {item === "depoiments" && "Depoimentos"}
               </a>
@@ -74,7 +75,7 @@ export default function Footer() {
       {/* Rodapé final */}
       <div className="flex justify-center gap-2 py-5 opacity-80 text-sm">
         <p>© Liveira Dev</p>
-        <p>2025</p>
+        <p>2026</p>
         <p>Todos os direitos reservados</p>
       </div>
     </footer>
