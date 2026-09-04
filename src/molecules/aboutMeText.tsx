@@ -9,13 +9,13 @@ function AboutMeText() {
     >
       <h1 className="text-2xl font-bold">SOBRE</h1>
       <p className="text-lg">
-        Desenvolvedor Fullstack com foco na construção, sustentação e migração de sistemas complexos. No Backend, atuo com Node.js (TypeScript) e o ecossistema .NET / C#, integrando microsserviços, mensageria (Kafka/RabbitMQ) e bancos de dados relacionais e NoSQL (MongoDB, SQL Server, Firebird). No Frontend, construo interfaces escaláveis com Angular e React.
+        Sou desenvolvedor Fullstack focado em backend, microsserviços e modernização de código legado. No dia a dia, construo e mantenho APIs em Node.js (TypeScript) e C# (.NET), lidando com mensageria (Kafka e RabbitMQ) e bancos como MongoDB, SQL Server e Firebird. No front, trabalho principalmente com Angular e React.
         <br />
         <br />
-        Tenho experiência prática no desenvolvimento de soluções sob medida, desde ferramentas de persistência customizadas até arquiteturas completas com esteiras de CI/CD na AWS e Azure DevOps.
+        Gosto de resolver gargalo de verdade. já cheguei a criar um micro ORM próprio pra extrair performance de banco legado e cuido de esteiras de CI/CD na AWS e Azure DevOps.
         <br />
         <br />
-        Minha trajetória combina atuação corporativa, projetos freelance e vivência em resolução de problemas computacionais e análise de dados utilizando Python, PHP e C/C++.
+        Minha base vem da prática: projetos corporativos em produção, freelas de ponta a ponta e muita linha de código em Python, PHP e C/C++.
       </p>
     </div>
   );
